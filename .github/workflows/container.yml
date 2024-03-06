@@ -5,12 +5,10 @@ on:
     branches: [ master ]
     paths:
     - "packages/container/**"
-    
   pull_request:
     branches: [ master ]
     paths:
     - "packages/container/**"
-  
   workflow_dispatch:
     
 
