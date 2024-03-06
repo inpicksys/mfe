@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
   paths:
-      - "packages/container/**"
+    - "packages/container/**"
   workflow_dispatch:
     
 
