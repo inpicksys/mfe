@@ -11,8 +11,8 @@ on:
     - "packages/container/**"
   workflow_dispatch:
     
-# env: 
-#   BADGE_MESSAGE: ${{ github.event.commits[0].message }}
+env: 
+  BADGE_MESSAGE: ${{ github.event.commits[0].message }}
   
 defaults:
   run:
