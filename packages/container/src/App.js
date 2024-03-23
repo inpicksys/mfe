@@ -4,7 +4,7 @@ import {
   StylesProvider,
   createGenerateClassName,
 } from '@material-ui/core/styles';
-import { createbrowserHistory }  from 'history';
+import { createBrowserHistory }  from 'history';
 
 import Progress from './components/Progress';
 import Header from './components/Header';
@@ -17,7 +17,7 @@ const generateClassName = createGenerateClassName({
   productionPrefix: 'co',
 });
 
-const history = createbrowserHistory();
+const history = createBrowserHistory();
 
 export default () => {
   const [isSignedIn, setIsSignedIn ] = useState(false);
